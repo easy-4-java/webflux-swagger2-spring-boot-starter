@@ -542,11 +542,7 @@
             </dependency>
             
             <!-- https://mvnrepository.com/artifact/io.springfox/springfox-spring-web -->
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-spring-web</artifactId>
-                <version>${springfox.version}</version>
-            </dependency>
+            
 
             <!-- https://mvnrepository.com/artifact/io.swagger -->
             <!-- https://mvnrepository.com/artifact/io.swagger/swagger-annotations -->
@@ -584,6 +580,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.32</version>
             <scope>compile</scope>
         </dependency>
         
